@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+#botao-1 {
+    margin-left: 20px;
+    width: 114px;
+    height: 36px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background: #665AE1;
+    color: #ffffff;
+}
+
+.div-esquerda {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.div-direita {
+    display: inline-block;
+    margin-left: 110px;
+    height: 300px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 90px;
+    font-weight: 600;
+
+
+}
+
+h2 {
+    color: #515151;
+    font-size: 40px;
+
+
+
+}
+
+P {
+    width: 350px;
+    margin-bottom: 29px;
+    color: #848484;
+    font-size: 20px;
+
+}
+
+img {
+    width: 508px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+#botao-2 {
+    background: #ADFF00;
+    font-size: 18px;
+    width: 117px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    height: 36px;
+    cursor: pointer;
+
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+#botao-1:hover {
+    opacity: 0.5;
+}
+
+#botao-1:active {
+    opacity: 0.8;
+}
+
+#botao-2:hover {
+    opacity: 0.5;
+}
+
+#botao-2:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:1011px) {
+
+    header {
+        display: none;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    .div-esquerda {
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .div-direita {
+        width: 75vw;
+        margin-left: 142px;
+        height: 300px;
+        margin-top: 56px;
+
+    }
+
+    img {
+        width: 518px;
+        height: 536px;
+        margin-top: 123px;
+    }
+
+    h1 {
+        color: #515151;
+        font-size: 90px;
+        font-weight: 600;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 47px;
+    }
+
+    #botao-2 {
+        Width: 239px;
+        Height: 64px;
+        font-size: 41px;
+        cursor: pointer;
+        margin: 20px 27px;
+        border-radius: 49px;
+    }
+
+}
